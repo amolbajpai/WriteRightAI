@@ -19,8 +19,8 @@ A FastAPI-based service for checking and correcting documents (PDF or DOCX) for 
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone https://github.com/amolbajpai/WriteRightAI.git
+cd WriteRightAI
 ```
 
 2. Create and activate a virtual environment:
