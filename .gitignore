@@ -1,7 +1,7 @@
 # Ignore virtual environment files
 .venv/
 env/
-.env
+env
 
 # Ignore Python bytecode files
 *.pyc
@@ -16,5 +16,12 @@ env/
 logs/
 *.log
 
+# temp directory
+output/
+temp_uploads/
+
 # Ignore FastAPI specific files
 .fastapi/
+
+# Ignore environment variables file
+.env
