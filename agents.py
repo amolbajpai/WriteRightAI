@@ -5,7 +5,6 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_community.document_loaders import PDFPlumberLoader, Docx2txtLoader
 from docx import Document
 from typing import List
-from langchain_community.document_loaders import PDFPlumberLoader, Docx2txtLoader
 import os
 
 os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY")
